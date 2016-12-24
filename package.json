@@ -1,0 +1,18 @@
+{
+	"name": "brainfuck-bot",
+	"productName": "BrainFuck Bot",
+	"version": "0.1.0",
+	"main": "index.js",
+	"dependencies": {
+		"devtool": "latest",
+		"discord.js": "latest"
+	},
+	"scripts": {
+		"start": "devtool index.js",
+		"nogui": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cooper-anderson/brainfuck-bot.git"
+	}
+}
