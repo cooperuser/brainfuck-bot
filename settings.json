@@ -1,4 +1,7 @@
 {
 	"token": "",
-	"useNumberIO": false
+	"global": {
+		"anyUserInput": false,
+		"useNumberIO": false
+	}
 }
