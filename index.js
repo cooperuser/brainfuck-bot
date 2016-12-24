@@ -9,6 +9,6 @@ bot.on("message", function(message) {
 	if (message.content.startsWith("```BrainFuck")) {
 		let code = message.content.slice(12).split("```")[0];
 		let args = parseArgs(message.content.slice(12).split("```")[1])
-		console.log(code, args);
+		message.channel.sendMessage(code);
 	}
 });
