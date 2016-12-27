@@ -17,7 +17,7 @@ Character.list = {
 	},
 	'-': function(bf) {
 		if (bf.memory[bf.selector] > 0) {
-			bf.memory[bf.selector--;
+			bf.memory[bf.selector]--;
 		} else {
 			bf.memory[bf.selector] = 255;
 		}
@@ -79,5 +79,7 @@ class BrainFuck {
 		this.input = function() {input(this);};
 		this.output = function() {output(this);};
 	}
-	
+
 }
+
+module.exports = {BrainFuck, Character};
