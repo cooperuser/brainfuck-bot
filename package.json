@@ -1,7 +1,7 @@
 {
 	"name": "brainfuck-bot",
 	"productName": "BrainFuck Bot",
-	"version": "0.2.0",
+	"version": "0.2.5",
 	"main": "index.js",
 	"dependencies": {
 		"devtool": "latest",

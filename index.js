@@ -8,10 +8,10 @@ bot = new Discord.Client();
 bot.login(settings.token);
 
 bot.on("message", function(message) {
-	if (message.content.startsWith("```BrainFuck")) {
+	if (message.content.startsWith("```BRAINFUCK")) {
 		let code = message.content.slice(12).split("```")[0];
 		let args = parseArgs(message.content.slice(12).split("```")[1])
 		let outputs = new BrainFuck(code).outputs;
-		message.channel.sendMessage(outputs);
+		message.channel.sendMessage("```" + outputs + "```");
 	}
 });
