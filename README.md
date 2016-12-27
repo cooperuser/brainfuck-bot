@@ -30,11 +30,13 @@ Now go look at your server on discord, and the bot should have connected. But yo
 ## Usage
 After everything is set up, the bot is ready to use! To use this bot, you have to send a text message with the following syntax
 ```
-```BrainFuck
+```BRAINFUCK
   //BRAINFUCK_CODE
 ```ARGUMENTS
 ```
-If you have gotten this far, I asume that you are probably familiar with the BrainFuck language. If this is not the case, feel free to visit the BrainFuck Wiki located [here](https://en.wikipedia.org/wiki/Brainfuck).
+(Make sure that the \`\`\`BRAINFUCK is capitalized, because it is case sensitive)
+
+If you have gotten this far, I assume that you are probably familiar with the BrainFuck language. If this is not the case, feel free to visit the BrainFuck Wiki located [here](https://en.wikipedia.org/wiki/Brainfuck).
 The part that might need a little bit of an explanation would be the arguments. These work similarly to arguments in the command-line, where you specify the argument with `--` followed by the key and `=` followed by the value.
 For example, if you would like any user to be able to respond to any input, not just by a prompt that they caused, you would run the code with `--anyUserInput=true`.
 So in total, it would be
