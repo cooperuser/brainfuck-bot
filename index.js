@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const {BrainFuck, Character} = require("./brainfuck");
 parseArgs = require("./parse-args");
 settings = require("./settings.json");
 bot = new Discord.Client();
