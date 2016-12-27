@@ -41,7 +41,7 @@ The part that might need a little bit of an explanation would be the arguments. 
 For example, if you would like any user to be able to respond to any input, not just by a prompt that they caused, you would run the code with `--anyUserInput=true`.
 So in total, it would be
 ```
-```BrainFuck
+```BRAINFUCK
   ++++[,.-]
 ```--anyUserInput=true
 ```
