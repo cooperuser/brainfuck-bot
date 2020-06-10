@@ -19,7 +19,7 @@ Now that you have the bot and the repository, you can now link the two by enteri
 ```
 Also feel free to change any of those global settings to what you like.
 #### Adding the bot to your server
-Now that we have the bot and the code linked, you now have to add the bot to your servers of choice. You do this by going to the url [https://discordapp.com/api/oauth2/authorize?client_id=ENTER_TOKEN_HERE&scope=bot&permissions=0](), where you replace `ENTER_TOKEN_HERE` with your bots token.
+Now that we have the bot and the code linked, you now have to add the bot to your servers of choice. You do this by going to the url [https://discordapp.com/api/oauth2/authorize?client_id=ENTER_CLIENT_ID_HERE&scope=bot&permissions=0](), where you replace `ENTER_CLIENT_ID_HERE` with your bots client id.
 #### Running the bot
 Everything has been set up! Now to run the bot, navigate to the repository's directory with your favorite terminal application, and run the following command
 ```
